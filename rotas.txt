@@ -1,0 +1,40 @@
+Segue rotas e parâmetros
+
+* Usar os metodos DELETE, PUT, POST e GET em todas as rotas para todos os processos de CRUD
+* Usar o numero do ID após a ultima / da URL para consultar item especifico, deletar ou alterar
+
+
+GRUPOS
+http://localhost/m2/public/api/grupos/
+
+Campos da tabela: id, grupo
+
+*****************************************************
+
+CIDADES
+http://localhost/m2/public/api/descontos/
+
+Campos da tabela: id, id_grupo, cidade
+
+*****************************************************
+
+PRODUTOS
+http://localhost/m2/public/api/descontos/
+
+Campos da tabela: id, produto, descricao, preco
+
+*****************************************************
+
+CAMPANHAS
+http://localhost/m2/public/api/descontos/
+
+Campos da tabela: id, id_grupo, campanha, ativa (usar valores 0 ou 1 para o campo ativa)
+
+*****************************************************
+
+DESCONTOS
+http://localhost/m2/public/api/descontos/
+
+Campos da tabela: id, id_campanha, id_produto, desconto, data_inicio, data_final
+
+*****************************************************
